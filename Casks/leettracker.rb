@@ -7,7 +7,7 @@ cask "leettracker" do
   desc "macOS LeetCode progress tracker with desktop widgets"
   homepage "https://github.com/syedhy/LeetTracker"
 
-  app "LeetTracker.app"
+  app "LeetTracker-1.0-macOS/LeetTracker.app"
 
   uninstall launchctl: "com.hyder.LeetTracker.background-refresh"
 
