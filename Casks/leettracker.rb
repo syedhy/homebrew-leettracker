@@ -1,13 +1,13 @@
 cask "leettracker" do
-  version "1.0.0-beta"
-  sha256 "52b64b29062d2b7011e0b246ac574e5c1e44b6be774f52bbcfc38af16957606d"
+  version "1.0.1-beta"
+  sha256 "4e889ae9174515e7140419009e3deec3f2ad1f242c102453ec15764ed9e77276"
 
-  url "https://github.com/syedhy/LeetTracker/releases/download/v#{version}/LeetTracker-1.0-macOS.zip"
+  url "https://github.com/syedhy/LeetTracker/releases/download/v#{version}/LeetTracker-1.0.1-beta-macOS.zip"
   name "LeetTracker"
   desc "macOS LeetCode progress tracker with desktop widgets"
   homepage "https://github.com/syedhy/LeetTracker"
 
-  app "LeetTracker-1.0-macOS/LeetTracker.app"
+  app "LeetTracker-1.0.1-beta-macOS/LeetTracker.app"
 
   uninstall launchctl: "com.hyder.LeetTracker.background-refresh"
 
